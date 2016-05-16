@@ -1,6 +1,6 @@
 <?php 
 $token0 = uniqid(rand(),true);
-setcookie("token0",$token0,time()+10000,"/",$secure=true,$httponly=true);
+setcookie("token0",$token0,time()+10000,"/",$secure=false,$httponly=true);
 include("../controller/controlecookie.php");
 ?>
 <!DOCTYPE html>

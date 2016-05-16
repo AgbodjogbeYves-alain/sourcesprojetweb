@@ -101,9 +101,5 @@
       </script> ');
 			}
 	}
-	else{
-		header('Location: https://polymangas-igmangas.rhcloud.com/src/vue/signin.php');
-
-	}
 }
 ?>

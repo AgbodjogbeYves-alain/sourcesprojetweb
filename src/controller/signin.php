@@ -50,10 +50,10 @@
                         $tok=sha1($token);
                         $hpseudo=sha1($pseudo);
                         setcookie("user",$pseudo,time()+86400,"/");//dure 1 jour
-                        setcookie("auth",$droit['ISADMIN'],time()+86400,"/",$secure=true,$httponly=true);
-                        setcookie("token",$tok,time()+86400,"/",$secure=true,$httponly=true);
-                        setcookie("str",$string,time()+86400,"/",$secure=true,$httponly=true);
-                        setcookie("tokenuser",$hpseudo,time()+86400,"/",$secure=true,$httponly=true);
+                        setcookie("auth",$droit['ISADMIN'],time()+86400,"/",$secure=false,$httponly=true);
+                        setcookie("token",$tok,time()+86400,"/",$secure=false,$httponly=true);
+                        setcookie("str",$string,time()+86400,"/",$secure=false,$httponly=true);
+                        setcookie("tokenuser",$hpseudo,time()+86400,"/",$secure=false,$httponly=true);
 
                     }
                     else{

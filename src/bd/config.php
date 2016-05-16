@@ -1,7 +1,7 @@
 <?php
 	try
 	{
-		$bd = new PDO('mysql:host='';dbname='polymangas'', 'root','');
+		$bd = new PDO('mysql:host=;dbname=polymangas', 'root','');
 	}
 	catch(Exception $e)
 	{
